@@ -10,7 +10,6 @@ public class Max_consecutive {
     }
     int count=0;
     int max=0;
-    int num=0;
     for(int i=0;i<a;i++){
             count+=1;          
         if(arr[i]==0){

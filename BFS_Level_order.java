@@ -1,7 +1,4 @@
 import java.util.*;
-
-// import com.sun.corba.se.impl.orbutil.graph.Node;
-
 class Main{
     static Node create(Node root,int data){
         if(root==null){
