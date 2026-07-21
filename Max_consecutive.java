@@ -12,7 +12,6 @@ public class Max_consecutive {
     int max=0;
     int num=0;
     for(int i=0;i<a;i++){
-            num+=arr[i];
             count+=1;          
         if(arr[i]==0){
             count = 0; 
@@ -20,7 +19,6 @@ public class Max_consecutive {
             if(count>max){
         max=count;
     }
-    num=0;
       }   
      System.out.println(max);
    } 
