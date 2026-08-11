@@ -8,6 +8,10 @@ public class Anagram {
     char[] d = b.toCharArray();
     Arrays.sort(c);
     Arrays.sort(d);
+    if(a.length()!=b.length()){
+        System.out.print("not anagram");
+        return;
+    }
     if(Arrays.equals(c,d)){
         System.out.print("Anagram");
     }
@@ -16,4 +20,4 @@ public class Anagram {
     }
     }
 }
-`
+    
